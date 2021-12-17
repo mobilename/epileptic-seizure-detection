@@ -1,4 +1,4 @@
-function wavef = wav_feat(y)
+function wavef = wav_feat(y) %what is y??
 
 [c,l] = wavedec(y,4,'db4');
 approx = appcoef(c,l,'db4');
